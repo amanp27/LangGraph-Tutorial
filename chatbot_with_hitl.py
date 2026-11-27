@@ -12,7 +12,7 @@ import requests
 
 load_dotenv()
 
-llm = ChatOpenAI()
+llm = ChatOpenAI(model = "gpt-4o-mini")
 
 # Tools----
 @tool
